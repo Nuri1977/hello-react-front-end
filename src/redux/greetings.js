@@ -1,9 +1,8 @@
 export const GET_GREETINGS = 'hello/greetings/GREETINGS';
 
-const initialState =
-  {
-    message: 'LOADING'
-  };
+const initialState = {
+  message: 'LOADING',
+};
 
 export const setGreetings = (payload) => ({
   type: GET_GREETINGS,
